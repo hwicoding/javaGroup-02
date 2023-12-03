@@ -157,7 +157,7 @@ public class Quiz {
 		if(cnt==0) {
 			System.out.println(lookNum+"은 존재하지 않습니다.");
 		}
-		
+		*/
 		
 
 	}
