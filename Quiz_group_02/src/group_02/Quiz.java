@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Quiz {
 
 	public static void main(String[] args) {
+		// 1번
+		/*
+		long i=1;
+		        long count=0;
+		        for(count=0; count<=10; count++, i*=10) {
+		        	System.out.println("10^"+String.format("%2d", count)+"="+String.format("%11d", i));
+		        }
 		
 		/*
 		 * 2023. 12. 03 snr : QUIZ_4
@@ -115,7 +122,41 @@ public class Quiz {
 		}
 		*/
 		
+		// 11번
+		/*
+		Scanner sc = new Scanner(System.in);
 		
+		int num=0;
+		int input=0;
+		int lookNum=0;
+		int cnt=0;
+		
+		System.out.println("입력할 숫자의 갯수? :");
+		num=sc.nextInt();
+		
+		System.out.println(num+"개 숫자를 입력하세요 :");
+		int[] numArr=new int[num];
+		
+		for(int i=0; i<=numArr.length-1; i++) {
+			System.out.print((i+1)+"의 숫자 : ");
+			input=sc.nextInt();
+			numArr[i]=input;
+		}
+		
+		System.out.print("검색할 숫자는? : ");
+		lookNum=sc.nextInt();
+		
+		for(int i=0; i<=numArr.length-1; i++) {
+			if(lookNum==numArr[i]) {
+				System.out.println(lookNum+"의 위치는 "+(i+1)+"번째 입니다.");
+				cnt++;
+				break;
+			}
+		}
+		
+		if(cnt==0) {
+			System.out.println(lookNum+"은 존재하지 않습니다.");
+		}
 		
 		
 
