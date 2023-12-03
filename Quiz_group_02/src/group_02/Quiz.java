@@ -6,6 +6,42 @@ public class Quiz {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * 2023. 12. 03 snr : QUIZ_4
+		 */
+		 
+		/* Scanner scanner = new Scanner(System.in);
+		 
+		 int num = 0;
+		 
+		 System.out.print("Input your number : ");
+		 num = scanner.nextInt();
+		 for(int j = 1; j<=9; j++) {
+			 System.out.println();
+			 for(int i=num; i<=num+3; i++) {
+				 System.out.print(i+" X "+j+" = "+String.format("%2d", j*i)+"\t");
+			 }
+		 }*/
+		
+		
+		/*
+		 * 2023. 12. 03 snr : QUIZ_5
+		 */
+	/*	Scanner scanner = new Scanner(System.in);
+		int num = 0;
+		int sum = 0;
+		
+		System.out.print("Enter on ingeter(0~9) : ");
+		num = scanner.nextInt();
+		
+		while (num > 0) {
+			sum += num%10;
+			num = num/10;
+		}
+		
+		System.out.println("Sum of digits = "+sum);
+		*/
+		
 		// 8번
 		/*
 		Scanner scanner = new Scanner(System.in);
