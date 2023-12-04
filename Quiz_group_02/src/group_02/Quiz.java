@@ -7,7 +7,7 @@ public class Quiz {
 	public static void main(String[] args) {
 		
 		
-		// 2번
+		// 2번 문
 		/*
 		long i=1;
 		        long count=0;
