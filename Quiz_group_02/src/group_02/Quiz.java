@@ -103,8 +103,40 @@ public class Quiz {
 		*/
 		
 		
+		//8번
+		/*
+		 Scanner scanner = new Scanner(System.in);
+		int count;
+		int count1 = 0;
+		int max = 0;
+		int a = 0;
 		
-		// 8번
+		
+		System.out.print("입력할 숫자의 갯수 ? (100개 미만) : ");
+		count = scanner.nextInt();
+		
+		System.out.println(count + "개의 숫자를 입력하세요!");
+		
+		int[]num= new int[count];
+		
+		for(int i=0; i<num.length; i++) {
+			num[i] = scanner.nextInt();
+			count1++;
+				if(max < num[i]) {
+					max = num[i];
+					a = count1;
+		 }
+		}
+		
+		System.out.println(max+" "+a);
+		 
+		 
+		*/
+		
+		
+		
+		
+		// 9번
 		/*
 		Scanner scanner = new Scanner(System.in);
 				
@@ -142,40 +174,37 @@ public class Quiz {
 				}
 				*/
 		
-		// 9번
+		
+		// 10번
+		
 		/*
 		Scanner scanner = new Scanner(System.in);
-		int num;
-		int lookNum, count = 0;
-
+		int[] histo = new int[10]; // 10개 배열 생성
 		
-		System.out.print("입력할 숫자의 갯수? : ");
-		num = scanner.nextInt();
+		System.out.println("Input score : "); //성적 히스토그램 만들기 문제
 		
-		System.out.println(num + "개의 숫자를 입력하세요!: ");
-		
-		int[] number = new int[num];
-		
-		for(int i=0; i<number.length; i++) {
-			System.out.print(i+1 +"의 숫자 : ");
-			number[i] = scanner.nextInt();
+		// int size = histo.length
+		for(int i=0; i<histo.length; i++) { // 0~9 인덱스까지 돌릴거다
+			System.out.print((i+1) + "의 score : "); // 입력 점수 출력문
+			int inputScore = scanner.nextInt(); // 입력 점수 정수형에 저장
+			++histo[inputScore/10]; 
+			// histo[inputScore/10] = histo[inputScore/10] +1 
+			// => 여기서 histo[inputScore/10]는 껍데기(틀)이라 생각하고 실질적인 값은 +O이 된다.
 		}
+		scanner.close();
 		
-		System.out.print("검색할 숫자는? :");
-		lookNum = scanner.nextInt();
+		System.out.println("---------- Histogram ----------");
 		
-		for(int i=0; i<number.length; i++) {
-			if(lookNum == number[i]) {
-				System.out.println(lookNum + "의 위치는 " + (i+1) + "번째 입니다." );
-				count++;
-				break;
+		for(int i=histo.length-1; i>=0; i--) {
+			System.out.print(String.format("%3d : ", i*10));
+			for(int j=0; j < histo[i]; j++) {
+				System.out.print("#");
 			}
-		
-		}
-		if(count == 0) {
-			System.out.println(lookNum + "은 존재하시 않습니다.");
-		}
+			System.out.println();
+		}	
 		*/
+		
+
 		
 		// 11번
 		/*
@@ -214,7 +243,7 @@ public class Quiz {
 		}
 		*/
 		
-//		Quiz 12
+//		12번
 //		
 //		int num, inputNumber ;
 //		int location, insertNum, gap = 0;
