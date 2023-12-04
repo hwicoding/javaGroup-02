@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Quiz {
 
 	public static void main(String[] args) {
-		// 1번
+		
+		
+		// 2번
 		/*
 		long i=1;
 		        long count=0;
@@ -13,9 +15,9 @@ public class Quiz {
 		        	System.out.println("10^"+String.format("%2d", count)+"="+String.format("%11d", i));
 		        }
 		
-		/*
-		 * 2023. 12. 03 snr : QUIZ_4
 		 */
+		
+		// 4번
 		 
 		/* Scanner scanner = new Scanner(System.in);
 		 
@@ -31,10 +33,10 @@ public class Quiz {
 		 }*/
 		
 		
+		// 5번
+		
 		/*
-		 * 2023. 12. 03 snr : QUIZ_5
-		 */
-	/*	Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		int num = 0;
 		int sum = 0;
 		
