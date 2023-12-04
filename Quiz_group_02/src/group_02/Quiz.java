@@ -17,6 +17,21 @@ public class Quiz {
 		
 		 */
 		
+//		3번
+//		
+//		Scanner scanner = new Scanner(System.in);
+//		int num = 1; //0이 아닌 이유는 0을 곱하면 0이 되기 때문이다. 
+//		int fac = 1;
+//		
+//		System.out.println("Input your decimal no. :");
+//		num = scanner.nextInt();
+//		
+//		for(int i=1; i<=num; i++) {
+//			
+//			fac *=i;
+//		}
+//		System.out.println(num + " 's factorial value =" + fac);
+		
 		// 4번
 		 
 		/* Scanner scanner = new Scanner(System.in);
@@ -161,7 +176,43 @@ public class Quiz {
 		}
 		*/
 		
+//		Quiz 12
+//		
+//		int num, inputNumber ;
+//		int location, insertNum, gap = 0;
+//		
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.println("입력할 숫자의 갯수 ? :");
+//		num = scanner.nextInt();
+//		
+//		int[] arrayNum = new int[num+1];
+//		
+//		System.out.println(num + "개의 숫자를 입력하세요! :");
+//		for(int i=0; i<arrayNum.length-1; i++) {
+//			System.out.println((i+1)+"의 숫자 :");
+//			inputNumber = scanner.nextInt();
+//			arrayNum[i] = inputNumber;
+//		}
+//			
+//		System.out.println("숫자를 삽입하고자 하는 위치는? :");
+//		location = (scanner.nextInt()-1);
+//		
+//		System.out.println("삽입하고자 하는 수는 ? :");
+//		insertNum = scanner.nextInt();
+//		
+//		gap = (arrayNum.length-1) - location;
+//		
+//		for(int i=gap; i>0; i--) {
+//			arrayNum[location+i] = arrayNum[location+i-1];
+//		}
+//		arrayNum[location] = insertNum;
+//		
+//		
+//		for(int i=0; i<arrayNum.length; i++) {
+//			System.out.println(arrayNum[i]);
+		}
 
 	}
 
-}
+
