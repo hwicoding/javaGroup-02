@@ -278,6 +278,8 @@ public class Quiz {
 //		
 //		for(int i=0; i<arrayNum.length; i++) {
 //			System.out.println(arrayNum[i]);
+		
+		//2023. 12. 05 snr : git test 중입니다. ~!~! 
 		}
 
 	}
